@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Алексей — нейрохудожник</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <b>Алексей</b>
+    <nav>
+      <a href="#works">Работы</a>
+      <a href="#process">Процесс</a>
+      <a href="#order">Заказать</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <canvas id="flow"></canvas>
+    <div class="wrap hero-content">
+      <h1>Рисую то, чего ещё нет</h1>
+      <p class="lead">Нейрохудожник. Создаю иллюстрации и визуальную айдентику: генеративные модели задают направление, а финальный вид я довожу вручную.</p>
+      <div class="btns">
+        <a class="btn" href="#order">Обсудить заказ</a>
+        <a href="#works">Смотреть работы</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="works" class="wrap">
+      <h2>Избранные работы</h2>
+      <p class="sub">Нажми на работу, чтобы открыть её крупно.</p>
+      <div class="grid">
+        <button class="tile w" data-full="img/work1.jpg">
+          <img src="img/work1.jpg" alt="Работа 1">
+          <figcaption>
+            <b>Название работы 1</b><br>
+            Здесь напиши краткое описание первой работы.
+          </figcaption>
+        </button>
+        <button class="tile" data-full="img/work2.jpg">
+          <img src="img/work2.jpg" alt="Работа 2">
+          <figcaption>
+            <b>Название работы 2</b><br>
+            Здесь напиши краткое описание второй работы.
+          </figcaption>
+        </button>
+        <button class="tile" data-full="img/work3.jpg">
+          <img src="img/work3.jpg" alt="Работа 3">
+          <figcaption>
+            <b>Название работы 3</b><br>
+            Здесь напиши краткое описание третьей работы.
+          </figcaption>
+        </button>
+        <button class="tile w" data-full="img/work4.jpg">
+          <img src="img/work4.jpg" alt="Работа 4">
+          <figcaption>
+            <b>Название работы 4</b><br>
+            Здесь напиши краткое описание четвертой работы.
+          </figcaption>
+        </button>
+        <button class="tile" data-full="img/work5.jpg">
+          <img src="img/work5.jpg" alt="Работа 5">
+          <figcaption>
+            <b>Название работы 5</b><br>
+            Здесь напиши краткое описание пятой работы.
+          </figcaption>
+        </button>
+        <button class="tile" data-full="img/work6.jpg">
+          <img src="img/work6.jpg" alt="Работа 6">
+          <figcaption>
+            <b>Название работы 6</b><br>
+            Здесь напиши краткое описание шестой работы.
+          </figcaption>
+        </button>
+      </div>
+    </section>
+
+    <section id="process" class="wrap">
+      <h2>Как мы работаем</h2>
+      <p class="sub">От первого разговора до готовых файлов обычно проходит от трёх до десяти дней.</p>
+      <ol class="steps">
+        <li>
+          <span>1</span>
+          <div>
+            <h3>Идея и референсы</h3>
+            <p>Ты рассказываешь, для чего нужна работа. Я собираю настроение, палитру и несколько направлений на выбор.</p>
+          </div>
+        </li>
+        <li>
+          <span>2</span>
+          <div>
+            <h3>Генерация и отбор</h3>
+            <p>Прогоняю десятки вариантов в генераторах, оставляю только то, что работает на задачу.</p>
+          </div>
+        </li>
+        <li>
+          <span>3</span>
+          <div>
+            <h3>Доводка и передача</h3>
+            <p>Дорисовываю детали, чищу артефакты, увеличиваю до нужного размера и отдаю готовые файлы.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="order" class="wrap">
+      <h2>Что можно заказать</h2>
+      <p class="sub">Работаю в разных стилях и берусь за любые заказы. Цены ориентировочные.</p>
+      <div class="rows">
+        <div class="row">
+          <h3>Иллюстрация</h3>
+          <p>Одна законченная работа для сайта, статьи или соцсетей.</p>
+          <b>от 5 000 ₽</b>
+        </div>
+        <div class="row">
+          <h3>Обложка</h3>
+          <p>Альбом, книга, подкаст или трек. Готовый макет под нужные форматы.</p>
+          <b>от 8 000 ₽</b>
+        </div>
+        <div class="row">
+          <h3>Серия и айдентика</h3>
+          <p>Единый визуальный язык из нескольких изображений для бренда или продукта.</p>
+          <b>от 30 000 ₽</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap about">
+      <img class="portrait" src="img/portrait.jpg" alt="Алексей">
+      <div>
+        <h2>Обо мне</h2>
+        <p>Для меня модель работает как оркестр: я задаю тему, ритм и настроение, а исполнение проходит через множество итераций и мой отбор.</p>
+        <p>Я только начинаю: пока без выставок и заказчиков за плечами. Но мне по-настоящему нравится работать с иллюстрациями и графическими редакторами, и я вкладываю в каждую работу время и внимание.</p>
+      </div>
+    </section>
+
+    <section class="wrap contact">
+      <h2>Напиши мне</h2>
+      <p class="sub">Расскажи, что нужно нарисовать и к какому сроку.</p>
+      <a class="big" href="https://t.me/Almak7150" target="_blank" rel="noopener">@Almak7150</a>
+      <div class="links">
+        <a href="https://t.me/Almak7150" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Алексей. Все изображения созданы с помощью нейросетей.</div>
+  </footer>
+
+  <dialog id="lb">
+    <img id="lbImg" src="" alt="">
+    <p id="lbCap"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
